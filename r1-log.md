@@ -27,3 +27,13 @@ Today I added a couple of packages, modified the webpack config to add source ma
 
 ### R1D11
 Today I forked the 100-days-of-code repo so that I could complete my log. Also attended a local meetup for JavaScript juniors focused around React and Redux. The plan is split into groups to work together on a project using React and Redux.
+
+### R1D12
+After having issues with adding the hash to the css files during the build in my JavaScript dev env I decided to create a new project and work through the intro guide examples to get a better understanding of the webpack features and whether the hashing would work following their examples.
+
+I did not quite get to the Caching guide which covers the hashing of output filenames for caching purposes but got familiar with some other new features particularly the webpack-dev-server package for spinning up a dev server to run the dev build. This works in a very similar way to combining the Express, webpack-dev-middleware, and Open packages. The differences being that the latest webpack and webpack-dev-server incorporate HMR pushing code up to the client as files are saved without the need for a browser refresh. The webpack-dev-middleware option does allow the developer more control / configuration over the dev server though.
+
+### R1D13
+Able to continue with the webpack guides and have found a couple of things.
+
+First still unsure about how the Tree Shaking feature works as the follwoing the examples I was unable to see this in action. Also unsure where the definition of marking files as side-effect-free is required, the guides mention the package.json but it is not explicit whether this is my projects packag.json or the 3rd party libraries...
