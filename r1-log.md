@@ -37,3 +37,10 @@ I did not quite get to the Caching guide which covers the hashing of output file
 Able to continue with the webpack guides and have found a couple of things.
 
 First still unsure about how the Tree Shaking feature works as the follwoing the examples I was unable to see this in action. Also unsure where the definition of marking files as side-effect-free is required, the guides mention the package.json but it is not explicit whether this is my projects packag.json or the 3rd party libraries...
+
+### R1D14
+Continued with the webpack guides and was able to get the prod build to add the hash to the extracted css files.
+
+Also integrated the webpack-dev-server and webpack-cli into my js-dev-env project replacing the need for manageing a separate srcServer.js file and build.js file while still getting the same benefits. Using the webpack-dev-server has also allowed me to leverage the HMR benefits of webpack in my dev build.
+
+Tomorrow I will need to look at the prod deploy steps and plan my next project, a meal plan with shopping list app. I will be able to use my js-dev-env as a starting point for the tooling and build chain and react for the front end library. Firstly I will need to test out how integrating react and the necessary packages into my dev env.
