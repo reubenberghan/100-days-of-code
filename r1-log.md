@@ -17,10 +17,13 @@ I was able to:
 - added linting via eslint to the project
 
 ### R1D3
+Continued with the JS dev env project. Today I looked into testing frameworks specifically Jest and how this would fit into my project and was able to add the testing scripts and packages for Jest into the JS dev env project.
 
 ### R1D4
+Today I added a script to log a message to the console as a prestart script to the JS dev env project. I also added an example module with test.
 
 ### R1D5
+Today in the *JS dev env* project I decided to replace thhe Jest test framework with Mocha in order to have the flexibility and because I felt more comfortable with the style of Mocha. I also modularised some more of the example code.
 
 ### R1D6
 
