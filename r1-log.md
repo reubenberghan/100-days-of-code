@@ -9,6 +9,13 @@ Been working on my JavaScript development environment project to create a starte
 
 Today I added a couple of packages, modified the webpack config to add source mapping and the html webpack plugin as well as adding an open:src script to abstract the transpiling of the src code and spinning up of the dev server to a separate script from the start.
 
+### R1D2
+Today I continued working on the JS dev env project.
+
+I was able to:
+- incorporate htmlwebpackplugin into the webpack build which dynamically build the index.html file with the correct asset bundles (e.g. <script/> and stylesheet tags)
+- added linting via eslint to the project
+
 ### R1D3
 
 ### R1D4
