@@ -65,3 +65,14 @@ Continued with the webpack guides and was able to get the prod build to add the 
 Also integrated the webpack-dev-server and webpack-cli into my **js-dev-env** project replacing the need for manageing a separate srcServer.js file and build.js file while still getting the same benefits. Using the webpack-dev-server has also allowed me to leverage the HMR benefits of webpack in my dev build.
 
 Tomorrow I will need to look at the prod deploy steps and plan my next project, a meal plan with shopping list app. I will be able to use my js-dev-env as a starting point for the tooling and build chain and react for the front end library. Firstly I will need to test out how integrating react and the necessary packages into my dev env.
+
+### R1D15
+Today I integrated the prod deployment into my **js-dev-env** project using Surge and also added a distServer.js using Express to check the built code locally as part of the build process. I also tweaked the dev server to add a proxy to the mock api server removing the need to have this url as part of the app code.
+
+### R1D16
+Today I incorporated React and and the jsx loader into the **js-dev-env** project to support the front end code being written using React and jsx. I will need to tweak the demo app in order to use React.
+
+### R1D17
+Today I began planning how the UI and data would need to be structured for my **meal-plan-app**. I will also need to think about the particular user journey(s) so I can wireframe and story board the UI on the front end. The schema for the app data also needs to be considered for how I am going to store this in a database.
+
+### R1D18
